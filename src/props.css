@@ -12,10 +12,17 @@ h1, h2, h3, h4, h5 , h6{
 .rel {position: relative;}
 .abs{position: absolute;}
 .sticky{position: sticky;}
-
+bl{
+    display: block;
+}
+ibl{
+    display: inline-block;
+}
 .flex{display: flex;}
 .aic{align-items: center;}  
-
+button{
+    cursor: pointer;
+}
 .font {
     font-family: 'Open Sans',   sans-serif;
     font-weight: normal;
@@ -43,12 +50,22 @@ h1, h2, h3, h4, h5 , h6{
 .s24{    font-size: 24px;}
 .s30{    font-size: 30px;}
 
-.tn{
+ .tn{
     text-decoration: none;
 }
-.tnhover{
-    text-decoration: underline;
+ .tnhover{
+    text-decoration: none ;
 }
 input, button, select, textarea{
     outline: none;
+}
+.animation {
+    transition: all 0.2s linear 0s;
+}
+.placeholder{
+    background: #ccc;
+    animation: placeholder 1s infinite linear;
+} 
+@keyframes placeholder{
+    50%{opacity: 0.5;}
 }
