@@ -60,9 +60,9 @@ const Header = () => {
                     }
                 </div>
            
-                <div className="banner">
+                {/* <div className="banner">
                     <img src="https://statics.olx.com.pk/external/base/img/hero_bg_pk.jpg" alt="header-image" class="header_banner" />
-                </div>
+                </div> */}
             </div>
 
         </React.Fragment>
