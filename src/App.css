@@ -121,11 +121,13 @@
 .banner{
 }
 .header_banner {
-    
     width: 100%;
     background-position: center;
-    height: 200px;
+    height: 40vh;
     object-fit: cover;
+}
+hr{
+    border: 0;
 }
 .additem{
     
@@ -163,5 +165,12 @@
 .additem .ftr .date.placeholder{
     
 }
+.app-ribbon {}
+.app-ribbon .image {}
+.app-ribbon .image img{}
+.app-ribbon .meta {}
+.app-ribbon .image .title{}
+.app-ribbon .image {}
+
 
 
